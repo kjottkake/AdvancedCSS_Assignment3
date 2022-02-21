@@ -1,14 +1,14 @@
 # githubpracticejason
-What is this repository?
+# What is this repository?
 
-What the project does
+# What the project does
 
-Why the project is useful
+# Why the project is useful
 
-How users can get started with the project
+# How users can get started with the project
 
-Where users can get help with your project
+# Where users can get help with your project
 
-Which technology is used
+# Which technology is used
 
-Who maintains and contributes to the project
+# Who maintains and contributes to the project
