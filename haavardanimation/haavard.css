@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+@keyframes spin{
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+
 .shape{
     border-radius: 0%;
     background-color: red;
@@ -11,4 +16,6 @@
     margin-left: 100px;
     border: 1px solid black;
     margin-top: 100px;
+    animation-name: spin;
+    animation-duration: 4s;
 }
