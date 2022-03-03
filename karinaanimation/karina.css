@@ -27,5 +27,27 @@
     border-radius: 55%;
 }
 }
-  
-  
+
+@media (prefers-reduced-motion) {
+    .square {
+        animation-name: rotate-in-2-cw;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .square.light-scheme {
+        background: black;
+    }
+}
+
+@media (orientation: landscape) {
+    .square {
+        flex-direction: row;
+    }
+}
+
+@media (orientation: portrait) {
+    .square {
+        flex-direction:column;
+    }
+}
