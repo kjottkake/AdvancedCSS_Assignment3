@@ -19,3 +19,29 @@
     animation-name: spin;
     animation-duration: 4s;
 }
+
+
+@media (prefers-reduced-motion) {
+    .shape {
+      animation-name: dissolve;
+    }
+  }
+
+  @media (prefers-color-scheme: light) {
+      .shape.light-scheme { background: black;}
+      }
+
+
+@media (orientation: landscape) {
+    .shape {
+      flex-direction: row;
+    }
+  }
+  
+  @media (orientation: portrait) {
+    .shape {
+      flex-direction: column;
+    }
+  }
+
+  
