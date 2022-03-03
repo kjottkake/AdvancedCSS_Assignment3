@@ -23,7 +23,7 @@
 
 @media (prefers-reduced-motion) {
     .shape {
-      animation-name: dissolve;
+      animation-name: spin;
     }
   }
 
