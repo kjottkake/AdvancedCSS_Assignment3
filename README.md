@@ -1,7 +1,8 @@
-# Assigment2 group 5
+# Assignment2 group 5
 
 # What is this repository? Karina
-
+This repository is where we are going to work on our assignment number 3 - we made this repository during our assignment number 2,
+and we also practiced on some github on here.
 
 # What the project does. Håvard
 
