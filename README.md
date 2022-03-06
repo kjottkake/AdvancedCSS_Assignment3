@@ -5,7 +5,7 @@ This repository is where we are going to work on our assignment number 3 - we ma
 and we also practiced on some github on here.
 
 # What the project does. Håvard
-
+This project is a setup for the next assignment. This has the prototype and all the neccessary files included, as well as the architecture. 
 
 # Why the project is useful
 this project is useful because it helps us learn git with pull, push, commit etc. it will give us a better understanding and practice.
