@@ -1,0 +1,14 @@
+
+
+@keyframes spin{
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+
+@keyframes rotate-in-2-cw {
+    0% {  
+       height: 60px;
+       width: 60px;
+       border-radius: 55%;
+   }
+}
