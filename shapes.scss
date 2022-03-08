@@ -57,13 +57,13 @@ animation-duration: 5s;
 
 
 .haavard{
-    background-color: rgb(169, 173, 173);
+    background-color: var(--background-haavard);
 }
 
 .karina{
-    background-color: bisque;
+    background-color: var(--background-karina);
 }
 
 .jason{
-    background-color: beige;
+    background-color: var(--background-jason);
 }
