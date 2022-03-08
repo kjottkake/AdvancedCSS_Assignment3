@@ -10,7 +10,7 @@
 
 .squarekarina {
     height: 120px;
-    background-color:blueviolet;
+    background-color:var(--shape-color-karina);
     border-radius: 0%;
     width: 120px;
     margin-top: 150px;
@@ -36,7 +36,7 @@ section{
 
  .shapehaavard{
     border-radius: 0%;
-    background-color: red;
+    background-color: var(--Shape-color-haavard);
     width: 200px;
     height: 200px;
     border: 1px solid black;
@@ -47,10 +47,11 @@ section{
 
 .shapejason{
 border-radius: 30%;
-background-color: brown;
+background-color: var(--shape-color-jason);
 width: 150px;
 height: 150px;
 animation-name: jason;
+animation-duration: 5s;
 }
 
 

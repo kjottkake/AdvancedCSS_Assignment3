@@ -32,6 +32,20 @@
   }
 }
 
+@-webkit-keyframes jason {
+  0% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+}
+
+@keyframes jason {
+  0% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+}
+
 @media (prefers-reduced-motion) {
   .shapehaavard {
     -webkit-animation-name: spin;
@@ -83,6 +97,13 @@
   }
 }
 
+:root {
+  --Shape-color-haavard: red;
+  --shape-color-karina: blueviolet;
+  --shape-color-jason: brown;
+  --switch-color-haavard: blue;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -90,7 +111,7 @@
 
 .squarekarina {
   height: 120px;
-  background-color: blueviolet;
+  background-color: var(--shape-color-karina);
   border-radius: 0%;
   width: 120px;
   margin-top: 150px;
@@ -128,7 +149,7 @@ section {
 
 .shapehaavard {
   border-radius: 0%;
-  background-color: red;
+  background-color: var(--Shape-color-haavard);
   width: 200px;
   height: 200px;
   border: 1px solid black;
@@ -141,11 +162,13 @@ section {
 
 .shapejason {
   border-radius: 30%;
-  background-color: brown;
+  background-color: var(--shape-color-jason);
   width: 150px;
   height: 150px;
   -webkit-animation-name: jason;
           animation-name: jason;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
 }
 
 .haavard {
