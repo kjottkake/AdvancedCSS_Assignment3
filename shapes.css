@@ -114,7 +114,7 @@
 }
 
 section {
-  height: 550px;
+  height: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -129,9 +129,8 @@ section {
 .shapehaavard {
   border-radius: 0%;
   background-color: red;
-  width: 100px;
-  height: 100px;
-  margin-left: 100px;
+  width: 200px;
+  height: 200px;
   border: 1px solid black;
   margin-top: 100px;
   -webkit-animation-name: spin;
@@ -140,11 +139,24 @@ section {
           animation-duration: 4s;
 }
 
+.shapejason {
+  border-radius: 30%;
+  background-color: brown;
+  width: 150px;
+  height: 150px;
+  -webkit-animation-name: jason;
+          animation-name: jason;
+}
+
 .haavard {
   background-color: aqua;
 }
 
 .karina {
   background-color: bisque;
+}
+
+.jason {
+  background-color: beige;
 }
 /*# sourceMappingURL=shapes.css.map */

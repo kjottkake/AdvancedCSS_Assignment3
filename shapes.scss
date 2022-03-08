@@ -26,7 +26,7 @@
  }
   
 section{
-    height: 550px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,14 +37,23 @@ section{
  .shapehaavard{
     border-radius: 0%;
     background-color: red;
-    width: 100px;
-    height: 100px;
-    margin-left: 100px;
+    width: 200px;
+    height: 200px;
     border: 1px solid black;
     margin-top: 100px;
     animation-name: spin;
     animation-duration: 4s;
 }
+
+.shapejason{
+border-radius: 30%;
+background-color: brown;
+width: 150px;
+height: 150px;
+animation-name: jason;
+}
+
+
 
 .haavard{
     background-color: aqua;
@@ -52,4 +61,8 @@ section{
 
 .karina{
     background-color: bisque;
+}
+
+.jason{
+    background-color: beige;
 }
