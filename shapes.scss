@@ -2,6 +2,7 @@
 @import './assets/styles/_animations.scss';
 @import './assets/styles/_mediaquerys.scss';
 @import "./assets/styles/_colors.scss";
+
 *{
     padding: 0;
     margin: 0;
@@ -24,6 +25,15 @@
     animation-play-state: running;
  }
   
+section{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
  .shapehaavard{
     border-radius: 0%;
     background-color: red;
@@ -36,3 +46,10 @@
     animation-duration: 4s;
 }
 
+.haavard{
+    background-color: aqua;
+}
+
+.karina{
+    background-color: bisque;
+}
