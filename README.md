@@ -2,7 +2,7 @@
 
 ## What is this repository? 
 This repository is where we are going to work on our assignment number 3 - we made this repository during our assignment number 2,
-and we also practiced on some github on here.
+and we also practiced on collaborating via github.
 
 ## What the project does. 
 This project is a setup for the next assignment. This has the prototype and all the neccessary files included, as well as the architecture. 
