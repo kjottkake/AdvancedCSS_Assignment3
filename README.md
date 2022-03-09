@@ -1,9 +1,7 @@
 # Assignment2 group 5
 
 ## What is this repository? 
-This repository is where we are going to work on our assignment number 3 - we made this repository during our assignment number 2,
-
-and we also practiced on collaborating via github. We are going to make a scrollytelling story in this repository.
+This repository is where we are going to work on our assignment number 3 - we made this repository during our assignment number 2, and we also practiced on collaborating via github. We are going to make a scrollytelling story in this repository.
 
 
 ## What the project does. 
