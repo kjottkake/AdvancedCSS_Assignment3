@@ -23,4 +23,4 @@ You can contact either Jason, Havard or Karina and inquire about how this projec
 We are using html, css, github, github desktop, git CLI.
 
 ## Who maintains and contributes to the project
-Jason, Havard, Karina.
+Jason who is awesome, Havard who is also awesome, Karina who is awesome too.
