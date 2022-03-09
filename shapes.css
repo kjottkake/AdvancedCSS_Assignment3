@@ -1,4 +1,4 @@
-@-webkit-keyframes spin {
+@-webkit-keyframes change {
   from {
     background-color: red;
   }
@@ -7,7 +7,7 @@
   }
 }
 
-@keyframes spin {
+@keyframes change {
   from {
     background-color: red;
   }
@@ -48,8 +48,8 @@
 
 @media (prefers-reduced-motion) {
   .shapehaavard {
-    -webkit-animation-name: spin;
-            animation-name: spin;
+    -webkit-animation-name: change;
+            animation-name: change;
   }
   .squarekarina {
     -webkit-animation-name: rotate-in-2-cw;
@@ -157,8 +157,8 @@ section {
   height: 200px;
   border: 1px solid black;
   margin-top: 100px;
-  -webkit-animation-name: spin;
-          animation-name: spin;
+  -webkit-animation-name: change;
+          animation-name: change;
   -webkit-animation-duration: 4s;
           animation-duration: 4s;
 }
