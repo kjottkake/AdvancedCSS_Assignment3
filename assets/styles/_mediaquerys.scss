@@ -8,13 +8,19 @@
     .squarekarina {
         animation-name: rotate-in-2-cw;
     }
+    .shapejason {
+      animation-name: change;
+    }
   }
 
   @media (prefers-color-scheme: light) {
       .shapehaavard.light-scheme { background: black;}
-      }
+      
       .squarekarina.light-scheme {
         background: black;
+      }
+      .shapejason.light-scheme { background: lightcoral;}
+      
     }
 
 
@@ -25,6 +31,9 @@
     .squarekarina {
         flex-direction: row;
     }
+    .squarejason {
+        flex-direction: row;
+    }
   }
   
   @media (orientation: portrait) {
@@ -32,6 +41,9 @@
       flex-direction: column;
     }
     .squarekarina {
+        flex-direction:column;
+    }
+    .squarejason {
         flex-direction:column;
     }
   }
