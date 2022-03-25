@@ -55,16 +55,22 @@
     -webkit-animation-name: rotate-in-2-cw;
             animation-name: rotate-in-2-cw;
   }
+  .shapejason {
+    -webkit-animation-name: change;
+            animation-name: change;
+  }
 }
 
 @media (prefers-color-scheme: light) {
   .shapehaavard.light-scheme {
     background: black;
   }
-}
-
-.squarekarina.light-scheme {
-  background: black;
+  .squarekarina.light-scheme {
+    background: black;
+  }
+  .shapejason.light-scheme {
+    background: lightcoral;
+  }
 }
 
 @media (orientation: landscape) {
@@ -80,6 +86,12 @@
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  .squarejason {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 
 @media (orientation: portrait) {
@@ -90,6 +102,12 @@
             flex-direction: column;
   }
   .squarekarina {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .squarejason {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -111,78 +129,4 @@
   padding: 0;
   margin: 0;
 }
-
-.squarekarina {
-  height: 120px;
-  background-color: var(--shape-color-karina);
-  border-radius: 0%;
-  width: 120px;
-  margin-top: 150px;
-  margin-left: 150px;
-  -webkit-animation-name: rotate-in-2-cw;
-          animation-name: rotate-in-2-cw;
-  -webkit-animation-duration: 2.5s;
-          animation-duration: 2.5s;
-  -webkit-animation-timing-function: easeOutQuad;
-          animation-timing-function: easeOutQuad;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-direction: normal;
-          animation-direction: normal;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-  -webkit-animation-play-state: running;
-          animation-play-state: running;
-}
-
-section {
-  height: 600px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.shapehaavard {
-  border-radius: 0%;
-  background-color: var(--Shape-color-haavard);
-  width: 200px;
-  height: 200px;
-  border: 1px solid black;
-  margin-top: 100px;
-  -webkit-animation-name: change;
-          animation-name: change;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-}
-
-.shapejason {
-  border-radius: 30%;
-  background-color: var(--shape-color-jason);
-  width: 150px;
-  height: 150px;
-  -webkit-animation-name: jason;
-          animation-name: jason;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
-}
-
-.haavard {
-  background-color: var(--background-haavard);
-}
-
-.karina {
-  background-color: var(--background-karina);
-}
-
-.jason {
-  background-color: var(--background-jason);
-}
-/*# sourceMappingURL=shapes.css.map */
+/*# sourceMappingURL=style.css.map */
