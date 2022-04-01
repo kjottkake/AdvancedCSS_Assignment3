@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-section, .frontpage, .islands, .whale, .backgroundsea, .backgroundboat, .underwater1, .turtleunder, .scuba, .bottom{
+section, .frontpage, .islands, .whale, .backgroundsea, .skytext, .skybackground, .backgroundboat, .underwater1, .turtleunder, .scuba, .bottom{
     height: 100vh;
     width: 100%;
     
@@ -18,6 +18,17 @@ section, .frontpage, .islands, .whale, .backgroundsea, .backgroundboat, .underwa
 
 .space{
 background-color: var(--black);
+}
+
+.seatext{
+    position: absolute;
+    color: var(--white);
+    text-align: center;
+}
+
+.skybackground{
+    background-image: url(/images/sky.jpg);
+    
 }
 
 
