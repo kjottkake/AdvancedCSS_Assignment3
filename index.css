@@ -157,6 +157,14 @@ section, .frontpage, .islands, .whale, .backgroundsea, .backgroundboat, .underwa
   position: absolute;
 }
 
+.cargo {
+  width: 50px;
+  height: 25px;
+  position: absolute;
+  margin-top: 175px;
+  right: 105px;
+}
+
 .backgroundboat {
   background-image: url(./images/backgroundboat.png);
 }
