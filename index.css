@@ -151,9 +151,10 @@ section, .frontpage, .islands, .whale, .backgroundsea, .backgroundboat, .underwa
 
 .bottlefront {
   z-index: 3;
-  position: absolute;
+  margin-top: 180px;
+  height: 400px;
   width: 100%;
-  height: 200px;
+  position: absolute;
 }
 
 .backgroundboat {
@@ -164,7 +165,6 @@ section, .frontpage, .islands, .whale, .backgroundsea, .backgroundboat, .underwa
   max-width: 300px;
   max-height: 300px;
   z-index: 3;
-  margin-top: 100px;
   position: absolute;
   margin-top: 220px;
   margin-left: 300px;
