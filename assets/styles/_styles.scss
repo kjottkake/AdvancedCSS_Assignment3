@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-section, .frontpage, .islands, .whale, .backgroundsea, .skytext, .tropical, .plastic, .pollutiontext, .skybackground, .backgroundboat, .underwater1, .turtleunder, .scuba, .bottom{
+section, .frontpage, .islands, .whale, .backgroundsea, .skytext, .tropical, .plastic, .pollutiontext, .skybackground, .backgroundboat, .textoffish, .underwater1, .turtleunder, .scuba, .bottom{
     height: 100vh;
     width: 100%;
     
@@ -20,7 +20,7 @@ section, .frontpage, .islands, .whale, .backgroundsea, .skytext, .tropical, .pla
 background-color: var(--black);
 }
 
-.seatext, .marinetext, .lawtext{
+.seatext, .marinetext, .lawtext, .fishtext{
     position: absolute;
     color: var(--white);
     text-align: center;
@@ -95,8 +95,13 @@ background-image: url(./images/backgroundboat.png);
     max-width: 40px;
 }
 
+.textoffish{
+    background-color: var(--lightsea);
+    
+}
+
 .underwater1{
-    background-image: linear-gradient(to bottom, #407FDD, #0c56d6);
+    background-image: linear-gradient(to bottom, var(--lightsea), var(--darksea));
     position: absolute;
 }
 
@@ -115,7 +120,7 @@ background-image: url(./images/backgroundboat.png);
 
 
 .bottom{
-    background-color: #0c56d6;
+    background-color: var(--darksea);
     
     position: absolute;
 
