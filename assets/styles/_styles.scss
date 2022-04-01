@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-section, .frontpage, .islands, .whale, .backgroundsea, .skytext, .skybackground, .backgroundboat, .underwater1, .turtleunder, .scuba, .bottom{
+section, .frontpage, .islands, .whale, .backgroundsea, .skytext, .tropical, .plastic, .pollutiontext, .skybackground, .backgroundboat, .underwater1, .turtleunder, .scuba, .bottom{
     height: 100vh;
     width: 100%;
     
@@ -20,10 +20,12 @@ section, .frontpage, .islands, .whale, .backgroundsea, .skytext, .skybackground,
 background-color: var(--black);
 }
 
-.seatext{
+.seatext, .marinetext, .lawtext{
     position: absolute;
     color: var(--white);
     text-align: center;
+    max-width: 70ch;
+    
 }
 
 .skybackground{
@@ -31,7 +33,14 @@ background-color: var(--black);
     
 }
 
+.tropical{
+    background-image: url(/images/tropical.jpg);
+}
 
+.plastic{
+    background-image: url(/images/plastic\ pollution.jpg);
+    height: 100vh;
+}
 
 .backgroundsea{
     background-image: url(/images/pexels-kellie-churchman-1001682.jpg);
