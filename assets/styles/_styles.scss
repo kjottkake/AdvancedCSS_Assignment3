@@ -26,8 +26,13 @@ background-color: var(--black);
     color: var(--white);
     text-align: center;
     max-width: 70ch;
-    
+    border: 4px solid var(--black);
+    margin-left: 300px;
+    margin-top: 300px;
+    background-color: var(--textbox);
 }
+
+
 
 .skybackground{
     background-image: url(/images/sky.jpg);
@@ -120,7 +125,7 @@ background-image: url(./images/backgroundboat.png);
 }
 
 
-.underwater2{
+.underwater2, .scuba{
     background-image: url(./svgs/underwater.svg);
     position: absolute;
 }
@@ -143,6 +148,8 @@ background-image: url(./images/backgroundboat.png);
     margin-top: 200px;
 }
 
+
+
 .bottom{
     background-color: var(--darksea);
     
@@ -154,10 +161,11 @@ background-image: url(./images/backgroundboat.png);
     height: 100px;
     width: 100px;
     margin-left: 100px;
-    margin-top: 480px;
+    margin-top: 485px;
 }
 
 .seaweed{
+    height: 200px;
     
 }
 

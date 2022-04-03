@@ -127,6 +127,7 @@
   --white: white;
   --lightsea: rgb(64, 127, 221);
   --darksea: rgb(12, 86, 214);
+  --textbox: grey;
 }
 
 * {
@@ -154,6 +155,10 @@ section, .frontpage, .space, .islands, .whale, .backgroundsea, .skytext, .tropic
   color: var(--white);
   text-align: center;
   max-width: 70ch;
+  border: 4px solid var(--black);
+  margin-left: 300px;
+  margin-top: 300px;
+  background-color: var(--textbox);
 }
 
 .skybackground {
@@ -241,7 +246,7 @@ section, .frontpage, .space, .islands, .whale, .backgroundsea, .skytext, .tropic
   margin-left: 900px;
 }
 
-.underwater2 {
+.underwater2, .scuba {
   background-image: url(./svgs/underwater.svg);
   position: absolute;
 }
@@ -272,7 +277,11 @@ section, .frontpage, .space, .islands, .whale, .backgroundsea, .skytext, .tropic
   height: 100px;
   width: 100px;
   margin-left: 100px;
-  margin-top: 480px;
+  margin-top: 485px;
+}
+
+.seaweed {
+  height: 200px;
 }
 
 .bottle2 {
