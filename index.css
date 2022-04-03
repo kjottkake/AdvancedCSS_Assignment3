@@ -223,6 +223,8 @@ section, .frontpage, .space, .islands, .whale, .backgroundsea, .skytext, .tropic
   margin-left: 650px;
   margin-top: 300px;
   max-width: 40px;
+  -webkit-transform: rotate(70deg);
+          transform: rotate(70deg);
 }
 
 .textoffish {
@@ -239,6 +241,8 @@ section, .frontpage, .space, .islands, .whale, .backgroundsea, .skytext, .tropic
   height: 100px;
   margin-top: 200px;
   margin-left: 100px;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
 .fish2 {
@@ -265,6 +269,15 @@ section, .frontpage, .space, .islands, .whale, .backgroundsea, .skytext, .tropic
   height: 200px;
   width: 200px;
   margin-left: 550px;
+  margin-top: 200px;
+}
+
+.diver {
+  position: absolute;
+  height: 200px;
+  width: 300px;
+  z-index: 3;
+  margin-left: 200px;
   margin-top: 200px;
 }
 

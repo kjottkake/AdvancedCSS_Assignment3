@@ -99,6 +99,7 @@ background-image: url(./images/backgroundboat.png);
     margin-left: 650px;
     margin-top: 300px;
     max-width: 40px;
+    transform: rotate(70deg);
 }
 
 .textoffish{
@@ -115,6 +116,7 @@ background-image: url(./images/backgroundboat.png);
     height: 100px;
     margin-top: 200px;
     margin-left: 100px;
+    transform: rotateY(180deg);
 }
 
 .fish2{
@@ -148,7 +150,14 @@ background-image: url(./images/backgroundboat.png);
     margin-top: 200px;
 }
 
-
+.diver{
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    z-index: 3;
+    margin-left: 200px;
+    margin-top: 200px;
+}
 
 .bottom{
     background-color: var(--darksea);
