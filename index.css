@@ -125,6 +125,8 @@
   --background-jason: beige;
   --black: black;
   --white: white;
+  --lightsea: rgb(64, 127, 221);
+  --darksea: rgb(12, 86, 214);
 }
 
 * {
@@ -132,21 +134,22 @@
   margin: 0;
 }
 
-section, .frontpage, .islands, .whale, .backgroundsea, .skytext, .skybackground, .backgroundboat, .underwater1, .turtleunder, .scuba, .bottom {
+section, .frontpage, .space, .islands, .whale, .backgroundsea, .skytext, .tropical, .plastic, .pollutiontext, .skybackground, .backgroundboat, .textoffish, .underwater1, .turtleunder, .scuba, .bottom {
   height: 100vh;
   width: 100%;
 }
 
 .earth {
-  margin-left: 250px;
-  height: 100vh;
+  margin-left: 350px;
+  height: 500px;
+  margin-top: 30px;
 }
 
 .space {
   background-color: var(--black);
 }
 
-.seatext, .marinetext, .lawtext {
+.seatext, .marinetext, .lawtext, .fishtext {
   position: absolute;
   color: var(--white);
   text-align: center;
@@ -159,6 +162,11 @@ section, .frontpage, .islands, .whale, .backgroundsea, .skytext, .skybackground,
 
 .tropical {
   background-image: url(/images/tropical.jpg);
+}
+
+.plastic {
+  background-image: url(/images/plastic\pollution.jpg);
+  height: 100vh;
 }
 
 .backgroundsea {
@@ -212,25 +220,51 @@ section, .frontpage, .islands, .whale, .backgroundsea, .skytext, .skybackground,
   max-width: 40px;
 }
 
+.textoffish {
+  background-color: var(--lightsea);
+}
+
 .underwater1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#407FDD), to(#0c56d6));
-  background-image: linear-gradient(to bottom, #407FDD, #0c56d6);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--lightsea)), to(var(--darksea)));
+  background-image: linear-gradient(to bottom, var(--lightsea), var(--darksea));
   position: absolute;
 }
 
 .fish1 {
-  height: 70px;
+  height: 100px;
   margin-top: 200px;
   margin-left: 100px;
 }
 
 .fish2 {
-  height: 70px;
+  height: 100px;
   margin-left: 900px;
 }
 
+.underwater2 {
+  background-image: url(./svgs/underwater.svg);
+  position: absolute;
+}
+
+.turtle {
+  position: absolute;
+  z-index: 3;
+  height: 200px;
+  width: 200px;
+  margin-left: 300px;
+  margin-top: 250px;
+}
+
+.plasticbag {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  margin-left: 550px;
+  margin-top: 200px;
+}
+
 .bottom {
-  background-color: #0c56d6;
+  background-color: var(--darksea);
   position: absolute;
 }
 
@@ -239,12 +273,6 @@ section, .frontpage, .islands, .whale, .backgroundsea, .skytext, .skybackground,
   width: 100px;
   margin-left: 100px;
   margin-top: 480px;
-}
-
-.seaweed {
-  margin-left: 100px;
-  position: relative;
-  bottom: 0;
 }
 
 .bottle2 {
