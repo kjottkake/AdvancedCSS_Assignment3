@@ -135,7 +135,7 @@
   margin: 0;
 }
 
-section, .frontpage, .space, .islands, .whale, .backgroundsea, .skytext, .tropical, .plastic, .pollutiontext, .skybackground, .backgroundboat, .textoffish, .underwater1, .turtleunder, .scuba, .bottom {
+section, .frontpage, .space, .islands, .whale, .skyy, .backgroundsea, .skytext, .tropical, .plastic, .pollutiontext, .skybackground, .backgroundboat, .textoffish, .underwater1, .turtleunder, .scuba, .bottom {
   height: 100vh;
   width: 100%;
 }
@@ -176,6 +176,17 @@ section, .frontpage, .space, .islands, .whale, .backgroundsea, .skytext, .tropic
 
 .backgroundsea {
   background-image: url(/images/pexels-kellie-churchman-1001682.jpg);
+}
+
+.skyy {
+  background-image: url(/svgs/skybackground.jpg);
+}
+
+.waterwhale {
+  height: 200px;
+  min-width: 100%;
+  position: absolute;
+  margin-top: 378px;
 }
 
 .bottlefront {
