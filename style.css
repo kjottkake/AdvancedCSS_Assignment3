@@ -1,0 +1,17 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    /* debugging tools */
+    /* border: 1px solid red; */
+    /* background-color: antiquewhite; */
+
+    /* spacing stuff */
+    width: 80%;
+    margin: auto;
+    padding-top: 25%;
+    padding-bottom: 25%;
+
+    font-size: 1.2rem;
+}
