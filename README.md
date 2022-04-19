@@ -1,18 +1,20 @@
-# Assignment2 group 5
+# Assignment3 group 5
 
 ## What is this repository? 
-This repository is where we are going to work on our assignment number 3 - we made this repository during our assignment number 2, and we also practiced on collaborating via github. We are going to make a scrollytelling story in this repository.
+This is assignment 3 of the Advanced CSS course. Here we actualize our previous planning from assignment 2 and create a full fledged working webpage complete with scrollytelling.
 
 
 ## What the project does. 
-This project is a setup for the next assignment. This has the prototype and all the neccessary files included, as well as the architecture. 
+This project is the animated, scrollable project which reflects goal 14 of the UN's sustainable development goals in an easy to understand method using scrolly telling. <a href="https://sdgs.un.org/goals/goal14">Read More Goal 14 Here</a>
+
 
 ## Why the project is useful
-this project is useful because it helps us learn git with pull, push, commit etc. it will give us a better understanding and practice.
+This project illustrates the goal 14 of the UN's sustainable development goal. Goal 14 - Conserve and sustainably use the oceans, seas and marine resources for sustainable development.
+
 ## How users can get started with the project.
 You can get started by cloning the repository using git clone
 ```
-git clone git@github.com:kjottkake/githubpracticejason.git
+git clone https://github.com/kjottkake/AdvancedCSS_Assignment3.git
 ```
 
 
@@ -23,4 +25,4 @@ You can contact either Jason, Havard or Karina and inquire about how this projec
 We are using html, css, github, github desktop, git CLI.
 
 ## Who maintains and contributes to the project
-Jason who is awesome, Havard who is also awesome, Karina who is awesome too.
+<a href="https://github.com/kjottkake">Jason</a> who is awesome, <a href="https://github.com/Haavaala">Havard</a> who is also awesome, <a href="https://github.com/Berlin2023">Karina</a> who is awesome too.
