@@ -93,7 +93,7 @@ section img {
 
 p {
     /* debugging tools */
-    /* border: 1px solid red; */
+    border: 1px solid red;
     /* background-color: antiquewhite; */
 
     /* spacing stuff */
