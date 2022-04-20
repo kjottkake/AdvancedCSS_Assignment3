@@ -11,6 +11,11 @@
 body {
 }
 
+img {
+    width: 50%;
+}
+
+
 h1 {
     text-align: center;
     padding-top: 26%;
