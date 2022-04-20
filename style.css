@@ -20,6 +20,28 @@ h1 {
     border: 1px solid red;
 }
 
+img {
+    width: 50%;
+}
+
+.parallax {
+    border: 1px solid red;
+    text-align: center;
+}
+
+#oceanbg {
+    position: absolute;
+    z-index: -1;
+    
+}
+
+#oceanfg {
+    position: absolute;
+}
+
+#oceanobj {
+    position: absolute;
+}
 
 p {
     /* debugging tools */
