@@ -4,7 +4,11 @@
 * {
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: larger;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
 }
 
 h1 {
@@ -13,21 +17,9 @@ h1 {
     padding-bottom: 12%;
 }
 
-
-.story-image {
-    /* background-color: aqua; */
-    width: 600px;
-    height: 400px;
-    margin: auto;
+/* .parallax {
     border: 1px solid red;
-}
 
-img {
-    /* width: 50%; */
-}
-
-.parallax {
-    border: 1px solid red;
 }
 
 #oceanbg {
@@ -52,7 +44,52 @@ img {
     object-fit: cover;
     width: 100%;
     height: 100%;
+} */
+
+.container {
+    background-color: #020A11;
 }
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section::before{
+    content: '';
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #020A11, transparent);
+    z-index: 10000;
+}
+
+section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+
+.story-image {
+    /* background-color: aqua; */
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    border: 1px solid red;
+}
+
+
 
 p {
     /* debugging tools */
