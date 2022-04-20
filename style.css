@@ -13,8 +13,12 @@ body {
 
 h1 {
     text-align: center;
-    padding-top: 12%;
+    padding-top: 26%;
     padding-bottom: 12%;
+    position: absolute;
+    z-index: 1;
+    color: azure;
+
 }
 
 /* .parallax {
