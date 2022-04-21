@@ -114,3 +114,20 @@ p {
 
     font-size: 1.2rem;
 }
+
+/* Copy this @keyframes block to your CSS*/
+@keyframes yourAnimation {
+    0.0%{
+    }
+    100%{
+        transform: translate(-5px, 5px);
+    }
+    50.2%{
+        transform: translate(4px, -4px);
+    }
+}
+
+/* Add the animation: property to whichever element you want to animate */
+#wavefg{
+    animation: yourAnimation 3s linear 0s infinite normal none;
+} 

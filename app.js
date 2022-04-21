@@ -4,6 +4,10 @@ let rock = document.getElementById("oceanob");
 let wavebg = document.getElementById("wavebg");
 let wavefg = document.getElementById("wavefg");
 
+//adding intersection observer
+
+
+//function for when mouse scrolls, then object moves.
 window.addEventListener('scroll', function(){
     var value = window.scrollY;
     //first image element
