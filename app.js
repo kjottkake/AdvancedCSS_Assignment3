@@ -5,7 +5,13 @@ let wavebg = document.getElementById("wavebg");
 let wavefg = document.getElementById("wavefg");
 
 //adding intersection observer
+let controller = new ScrollMagic.Controller();
 
+let scene = new ScrollMagic.Scene({
+  triggerElement: '.earth'
+})
+.setClassToggle('.earth', 'scale')
+.addTo(controller);
 
 //function for when mouse scrolls, then object moves.
 window.addEventListener('scroll', function(){
@@ -18,3 +24,5 @@ window.addEventListener('scroll', function(){
     //second image element
     // wavefg.style.top = value * 0.1 + 'px';
 })
+
+

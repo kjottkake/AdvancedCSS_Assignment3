@@ -41,3 +41,13 @@
 #bottle{
     animation: rollBall 2s linear 0s infinite normal none;
 }
+
+
+
+.earth{
+    transition: 4s ;
+}
+
+.earth.scale{
+    transform: scale(1.5);
+}

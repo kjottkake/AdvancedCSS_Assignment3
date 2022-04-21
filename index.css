@@ -86,6 +86,16 @@
           animation: rollBall 2s linear 0s infinite normal none;
 }
 
+.earth {
+  -webkit-transition: 4s;
+  transition: 4s;
+}
+
+.earth.scale {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
 * {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: larger;
@@ -195,5 +205,9 @@ p {
   padding-top: 25%;
   padding-bottom: 25%;
   font-size: 1.2rem;
+}
+
+.earth {
+  margin-left: 150px;
 }
 /*# sourceMappingURL=index.css.map */
