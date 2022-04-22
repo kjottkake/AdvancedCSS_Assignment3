@@ -51,3 +51,21 @@
 .earth.scale{
     transform: scale(1.5);
 }
+
+.pollutiontext{
+    position: relative;
+    left: -1200px;
+    transition: 2s;
+}
+
+.slidein{
+    left: 0;
+}
+
+.toxicfish{
+    transition: 2s;
+}
+
+.moveright{
+    transform: translateX(300px);
+}

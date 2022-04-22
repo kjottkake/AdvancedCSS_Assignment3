@@ -100,6 +100,27 @@
           transform: scale(1.5);
 }
 
+.pollutiontext {
+  position: relative;
+  left: -1200px;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.slidein {
+  left: 0;
+}
+
+.toxicfish {
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.moveright {
+  -webkit-transform: translateX(300px);
+          transform: translateX(300px);
+}
+
 * {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: larger;
@@ -191,5 +212,10 @@ p {
 
 .earth {
   margin-left: 150px;
+}
+
+.toxicfish {
+  height: 150px;
+  width: 150px;
 }
 /*# sourceMappingURL=index.css.map */
