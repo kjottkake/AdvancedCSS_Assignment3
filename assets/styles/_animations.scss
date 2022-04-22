@@ -54,12 +54,18 @@
 
 .pollutiontext{
     position: relative;
-    left: -1000px;
+    left: -1200px;
     transition: 2s;
 }
 
 .slidein{
-    transition: 1s;
     left: 0;
 }
 
+.toxicfish{
+    transition: 2s;
+}
+
+.moveright{
+    transform: translateX(300px);
+}
