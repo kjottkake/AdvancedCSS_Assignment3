@@ -51,3 +51,15 @@
 .earth.scale{
     transform: scale(1.5);
 }
+
+.pollutiontext{
+    position: relative;
+    left: -1000px;
+    transition: 2s;
+}
+
+.slidein{
+    transition: 1s;
+    left: 0;
+}
+

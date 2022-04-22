@@ -13,6 +13,14 @@ let scene = new ScrollMagic.Scene({
 .setClassToggle('.earth', 'scale')
 .addTo(controller);
 
+let controller2 = new ScrollMagic.Controller();
+
+let scene2 = new ScrollMagic.Scene({
+  triggerElement: '.pollutiontext'
+})
+.setClassToggle('.pollutiontext', 'slidein')
+.addTo(controller);
+
 //function for when mouse scrolls, then object moves.
 window.addEventListener('scroll', function(){
     var value = window.scrollY;

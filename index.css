@@ -96,6 +96,19 @@
           transform: scale(1.5);
 }
 
+.pollutiontext {
+  position: relative;
+  left: -1000px;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.slidein {
+  -webkit-transition: 1s;
+  transition: 1s;
+  left: 0;
+}
+
 * {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: larger;
