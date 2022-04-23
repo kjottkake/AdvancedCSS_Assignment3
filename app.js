@@ -29,6 +29,13 @@ let scene3 = new ScrollMagic.Scene({
 .setClassToggle('.toxicfish', 'moveright')
 .addTo(controller);
 
+let controller4 = new ScrollMagic.Controller();
+let scene4 = new ScrollMagic.Scene({
+  triggerElement: '.turtletext'
+})
+.setClassToggle('.turtletext', 'wide')
+.addTo(controller);
+
 //function for when mouse scrolls, then object moves.
 window.addEventListener('scroll', function(){
     var value = window.scrollY;
