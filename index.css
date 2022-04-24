@@ -251,13 +251,11 @@ section img {
   width: 600px;
   height: 400px;
   margin: auto;
-  border: 1px solid red;
 }
 
 /* styling for the paragraph elements*/
 p {
   /* debugging tools */
-  border: 1px solid red;
   /* background-color: antiquewhite; */
   /* spacing stuff */
   width: 80%;
