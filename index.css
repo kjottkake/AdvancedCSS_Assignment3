@@ -120,6 +120,29 @@
           transform: translateX(900px);
 }
 
+/*animation - turtle*/
+.turtle {
+  animation-name: swim;
+  animation-duration: 10s;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 8650px;
+  left: 463px;
+  height: 250px;
+  width: 250px;
+  }
+
+  @keyframes swim {
+
+    0% {margin-left: -200px}
+    70% {margin-left: 40%;}
+    100% {margin-left: 50%;}
+
+     }
+
+
 /*animation for the text that goes from 0 in width to 80%*/
 .turtletext {
   width: 0%;
@@ -228,13 +251,11 @@ section img {
   width: 600px;
   height: 400px;
   margin: auto;
-  border: 1px solid red;
 }
 
 /* styling for the paragraph elements*/
 p {
   /* debugging tools */
-  border: 1px solid red;
   /* background-color: antiquewhite; */
   /* spacing stuff */
   width: 80%;
