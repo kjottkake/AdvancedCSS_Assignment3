@@ -87,7 +87,7 @@ section img {
     pointer-events: none;
 }
 
-
+/*styling for the story images*/
 .story-image {
     /* background-color: aqua; */
     width: 600px;
@@ -97,7 +97,7 @@ section img {
 }
 
 
-
+/* styling for the paragraph elements*/
 p {
     /* debugging tools */
     border: 1px solid red;
@@ -112,10 +112,12 @@ p {
     font-size: 1.2rem;
 }
 
+/* positioning for the earth image*/
 .earth{
     margin-left: 150px;
 }
 
+/*positioning and size for the fish*/
 .toxicfish{
     height: 150px;
     width: 150px;

@@ -24,13 +24,13 @@
   }
 }
 
-/* Add the animation: property to whichever element you want to animate */
+/* Animation for the wave*/
 #wavefg {
   -webkit-animation: yourAnimation 3s linear 0s infinite normal none;
           animation: yourAnimation 3s linear 0s infinite normal none;
 }
 
-/* Copy this @keyframes block to your CSS*/
+/* Animation for the plastic bottle*/
 @-webkit-keyframes rollBall {
   0.0% {
     -webkit-transform: translate(0, 0px);
@@ -80,12 +80,13 @@
   }
 }
 
-/* Add the animation: property to whichever element you want to animate */
+/* animation for the bottle */
 #bottle {
   -webkit-animation: rollBall 2s linear 0s infinite normal none;
           animation: rollBall 2s linear 0s infinite normal none;
 }
 
+/*animation for the earth, it will scale to 1.5 in 4 seconds*/
 .earth {
   -webkit-transition: 4s;
   transition: 4s;
@@ -96,6 +97,7 @@
           transform: scale(1.5);
 }
 
+/* animation for the text that slides in from the left*/
 .pollutiontext {
   position: relative;
   left: -1200px;
@@ -107,6 +109,7 @@
   left: 0;
 }
 
+/*animation for the toxic fish that moves to the right*/
 .toxicfish {
   -webkit-transition: 3.5s;
   transition: 3.5s;
@@ -117,6 +120,7 @@
           transform: translateX(900px);
 }
 
+/*animation for the text that goes from 0 in width to 80%*/
 .turtletext {
   width: 0%;
   -webkit-transition: 2s;
@@ -218,6 +222,7 @@ section img {
   pointer-events: none;
 }
 
+/*styling for the story images*/
 .story-image {
   /* background-color: aqua; */
   width: 600px;
@@ -226,6 +231,7 @@ section img {
   border: 1px solid red;
 }
 
+/* styling for the paragraph elements*/
 p {
   /* debugging tools */
   border: 1px solid red;
@@ -238,10 +244,12 @@ p {
   font-size: 1.2rem;
 }
 
+/* positioning for the earth image*/
 .earth {
   margin-left: 150px;
 }
 
+/*positioning and size for the fish*/
 .toxicfish {
   height: 150px;
   width: 150px;

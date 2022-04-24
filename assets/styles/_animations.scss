@@ -9,13 +9,13 @@
     }
 }
 
-/* Add the animation: property to whichever element you want to animate */
+/* Animation for the wave*/
 #wavefg{
     animation: yourAnimation 3s linear 0s infinite normal none;
 } 
 
 
-/* Copy this @keyframes block to your CSS*/
+/* Animation for the plastic bottle*/
 @keyframes rollBall {
     0.0%{
         transform: translate(0, 0px);
@@ -37,13 +37,13 @@
 }
 
 
-/* Add the animation: property to whichever element you want to animate */
+/* animation for the bottle */
 #bottle{
     animation: rollBall 2s linear 0s infinite normal none;
 }
 
 
-
+/*animation for the earth, it will scale to 1.5 in 4 seconds*/
 .earth{
     transition: 4s ;
 }
@@ -52,6 +52,7 @@
     transform: scale(1.5);
 }
 
+/* animation for the text that slides in from the left*/
 .pollutiontext{
     position: relative;
     left: -1200px;
@@ -62,6 +63,7 @@
     left: 0;
 }
 
+/*animation for the toxic fish that moves to the right*/
 .toxicfish{
     transition: 3.5s;
 }
@@ -70,7 +72,7 @@
     transform: translateX(900px);
 }
 
-
+/*animation for the text that goes from 0 in width to 80%*/
 .turtletext{
     width: 0%;
     transition: 2s;
