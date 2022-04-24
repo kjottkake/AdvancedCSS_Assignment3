@@ -4,7 +4,7 @@ let rock = document.getElementById("oceanob");
 let wavebg = document.getElementById("wavebg");
 let wavefg = document.getElementById("wavefg");
 
-//adding intersection observer
+//scroll magic for the earth
 let controller = new ScrollMagic.Controller();
 
 let scene = new ScrollMagic.Scene({
@@ -13,6 +13,7 @@ let scene = new ScrollMagic.Scene({
 .setClassToggle('.earth', 'scale')
 .addTo(controller);
 
+//scroll magic for the text that moves from left
 let controller2 = new ScrollMagic.Controller();
 
 let scene2 = new ScrollMagic.Scene({
@@ -21,6 +22,7 @@ let scene2 = new ScrollMagic.Scene({
 .setClassToggle('.pollutiontext', 'slidein')
 .addTo(controller);
 
+//scroll magic for the fish that moves to the right
 let controller3 = new ScrollMagic.Controller();
 
 let scene3 = new ScrollMagic.Scene({
@@ -29,6 +31,7 @@ let scene3 = new ScrollMagic.Scene({
 .setClassToggle('.toxicfish', 'moveright')
 .addTo(controller);
 
+//magic scroll for the text that goes from 0% to 80% in width
 let controller4 = new ScrollMagic.Controller();
 let scene4 = new ScrollMagic.Scene({
   triggerElement: '.turtletext'
