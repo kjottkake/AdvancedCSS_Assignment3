@@ -147,7 +147,7 @@ h1 {
   padding-top: 26%;
   padding-bottom: 12%;
   position: absolute;
-  z-index: 1;
+  z-index: 4;
   color: var(--azure);
 }
 
