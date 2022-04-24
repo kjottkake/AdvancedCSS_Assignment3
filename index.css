@@ -128,7 +128,7 @@
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   position: absolute;
-  top: 8650px;
+  top: 6350px;
   left: 463px;
   height: 250px;
   width: 250px;
@@ -258,7 +258,7 @@ p {
   /* debugging tools */
   /* background-color: antiquewhite; */
   /* spacing stuff */
-  
+
   width: 80%;
   margin: auto;
   padding-top: 25%;
