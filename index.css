@@ -108,13 +108,13 @@
 }
 
 .toxicfish {
-  -webkit-transition: 2s;
-  transition: 2s;
+  -webkit-transition: 3.5s;
+  transition: 3.5s;
 }
 
 .moveright {
-  -webkit-transform: translateX(300px);
-          transform: translateX(300px);
+  -webkit-transform: translateX(900px);
+          transform: translateX(900px);
 }
 
 .turtletext {
@@ -245,6 +245,7 @@ p {
 .toxicfish {
   height: 150px;
   width: 150px;
+  margin-top: 200px;
 }
 
 :root {
