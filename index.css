@@ -116,32 +116,9 @@
 }
 
 .moveright {
-  -webkit-transform: translateX(900px);
-          transform: translateX(900px);
+  -webkit-transform: translateX(300px);
+          transform: translateX(300px);
 }
-
-/*animation - turtle*/
-.turtle {
-  animation-name: swim;
-  animation-duration: 10s;
-  animation-delay: 0;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  position: absolute;
-  top: 6325px;
-  left: 463px;
-  height: 250px;
-  width: 250px;
-  }
-
-  @keyframes swim {
-
-    0% {margin-left: -200px}
-    70% {margin-left: 40%;}
-    100% {margin-left: 50%;}
-
-     }
-
 
 /*animation for the text that goes from 0 in width to 80%*/
 .turtletext {
@@ -170,7 +147,7 @@ h1 {
   padding-top: 26%;
   padding-bottom: 12%;
   position: absolute;
-  z-index: 4;
+  z-index: 1;
   color: var(--azure);
 }
 
@@ -251,14 +228,15 @@ section img {
   width: 600px;
   height: 400px;
   margin: auto;
+  border: 1px solid red;
 }
 
 /* styling for the paragraph elements*/
 p {
   /* debugging tools */
+  border: 1px solid red;
   /* background-color: antiquewhite; */
   /* spacing stuff */
-
   width: 80%;
   margin: auto;
   padding-top: 25%;
